@@ -4,16 +4,16 @@ function changeContent(page) {
 		case 'home':
 			contentDiv.innerHTML = `
 				<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-12.png">
+"https://bsuedu.ru/bsu/info/gerbgimn/gerbbigb.gif">
 				<h2>
-					Welcome to the Home Page!
+                    Добро пожаловать на сайт!
 				</h2>
 				<p>
-					This is the main page of our SPA.
+					Это главная страица сайта.
 				</p>
 				<p>
-					Explore the different sections using
-					the navigation menu.
+					Вы можете открыть разные секции,
+                    используя меню навигации					
 				</p>
 			`;
 			break;
@@ -21,38 +21,38 @@ function changeContent(page) {
 			contentDiv.innerHTML = `
 				<h2>About Us</h2>
 				<p>
-					This is the about page content. Learn more 
-					about our purpose and team.
+					Это страница "О нас"
+					Здесь вы можете узнать больше о предназначении сайта
 				</p>
 				<p>
-					We're passionate about creating engaging and
-					informative SPAs.
+					Единственное предназначение сайта это
+                    помочь сдать зачёт Виноградову Алексею (11002317)!
 				</p>
 			`;
 			break;
 		case 'contact':
 			contentDiv.innerHTML = 
-				`<h2>Contact Us</h2> 
+				`<h2>Свяжитесь с нами</h2> 
 				<p>
-					Feel free to reach out to us!
+					(не связывайтесь)
 				</p> 
 				<form> 
-				<label for="name">Name:</label> 
+				<label for="name">Имя:</label> 
 				<input type="text" id="name" name="name" 
-						placeholder="Your Name" required>
+						placeholder="Ваше имя" required>
 				<label for="email">Email:</label> 
 				<input type="email" id="email" name="email" 
-						placeholder="Your Email" required>
-				<label for="message">Message:</label> 
+						placeholder="Ваше мыло" required>
+				<label for="message">Сообщение:</label> 
 				<textarea id="message" name="message" 
-							placeholder="Your Message" 
+							placeholder="Ваше сообщение" 
 							rows="4" required>
 					</textarea>
-				<button type="submit">Send Message</button> 
+				<button type="submit">Отправить</button> 
 				</form>`;
 			break;
 
 		default:
-			contentDiv.innerHTML = '<h2>Page not found!</h2>';
+			contentDiv.innerHTML = '<h2>Страница не найдена!</h2>';
 	}
 }
