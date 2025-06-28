@@ -1,1 +1,1 @@
-# simple-site-for-grade
+# Простой сайт для зачёта
